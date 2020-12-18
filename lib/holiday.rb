@@ -29,7 +29,8 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     holiday.map do |day, supplies|
       if day == :christmas || :new_years
         day << supply
-      binding.pry
+        binding.pry
+      end
     end
   end
 end
