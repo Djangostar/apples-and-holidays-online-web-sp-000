@@ -26,7 +26,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # Christmas AND the New Year's arrays
   supply = "Balloons"
   holiday_hash.map do |season, holiday|
-    holiday.map do |supplies|
+    holiday.map do |day, supplies|
       binding.pry
     end
   end
